@@ -1,0 +1,37 @@
+:doctitle: Hello Asciidoc
+:description: A minimal Asciidoc blog post to test the configuration
+:docdate: 2024-11-13
+:email: test@example.com
+:author: Test Author
+
+= Hello Asciidoc
+
+This is a test blog post written in Asciidoc format to verify that the content collection is properly configured.
+
+== Introduction
+
+Welcome to the world of Asciidoc! This format provides powerful markup capabilities for technical documentation.
+
+=== Features
+
+* Simple and readable syntax
+* Support for advanced formatting
+* Great for technical documentation
+* Integrates well with Astro
+
+== Code Example
+
+Here's a simple code example:
+
+[source,javascript]
+----
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet('Asciidoc'));
+----
+
+== Conclusion
+
+Asciidoc is now successfully configured in your Astro project!

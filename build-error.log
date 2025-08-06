@@ -1,0 +1,40 @@
+
+> dummy-asciidoc-project-node-os-error@0.0.1 build /home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error
+> astro build
+
+[GenerateContentTypesError] `astro sync` command failed to generate content collection types: Dynamic require of "node:os" is not supported
+  Hint:
+    This error is often caused by a syntax error inside your content, or your content configuration file. Check your src/content.config.ts file for typos.
+  Error reference:
+    https://docs.astro.build/en/reference/errors/generate-content-types-error/
+  Location:
+    /home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_typescript@5.9.2/node_modules/astro/dist/core/sync/index.js:219:11
+  Stack trace:
+    at syncContentCollections (file:///home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_typescript@5.9.2/node_modules/astro/dist/core/sync/index.js:219:11)
+    at async AstroBuilder.setup (file:///home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_typescript@5.9.2/node_modules/astro/dist/core/build/index.js:100:5)
+    at async build (file:///home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_typescript@5.9.2/node_modules/astro/dist/core/build/index.js:45:3)
+    at async runCommand (file:///home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_typescript@5.9.2/node_modules/astro/dist/cli/index.js:142:7)
+  Caused by:
+  Dynamic require of "node:os" is not supported
+    at eval (/home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/@forastro+asciidoc@2.3.2_astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_types_bb9f723493abc33e9e95b288c1718144/node_modules/@forastro/asciidoc/index.js:7:7238)
+    at eval (/home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/@forastro+asciidoc@2.3.2_astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_types_bb9f723493abc33e9e95b288c1718144/node_modules/@forastro/asciidoc/index.js:22:2417)
+    at eval (/home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/@forastro+asciidoc@2.3.2_astro@5.12.8_@types+node@24.2.0_jiti@2.5.1_rollup@4.46.2_types_bb9f723493abc33e9e95b288c1718144/node_modules/@forastro/asciidoc/index.js:7:7351)
+    at async ESModulesEvaluator.runInlinedModule (file:///home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/vite@6.3.5_@types+node@24.2.0_jiti@2.5.1/node_modules/vite/dist/node/module-runner.js:1062:5)
+    at async SSRCompatModuleRunner.directRequest (file:///home/shelton-louis/Desktop/dummy-asciidoc-project-node-os-error/node_modules/.pnpm/vite@6.3.5_@types+node@24.2.0_jiti@2.5.1/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:25274:23)
+ ELIFECYCLE  Command failed with exit code 1.
+Error: exit status 1
+Usage:
+  jpd run [script] [args...] [flags]
+
+Aliases:
+  run, r
+
+Flags:
+  -h, --help         help for run
+      --if-present   Run script only if it exists
+
+Global Flags:
+  -a, --agent string   Select the JS package manager you want to use
+  -C, --cwd string     Set the working directory for commands
+  -d, --debug          Make commands run in debug mode
+
